@@ -1,0 +1,56 @@
+# Node modules directory
+node_modules/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment variables
+.env
+.env.test
+.env.local
+.env.*.local
+
+# Directory for local env files
+.local/
+
+# Dependency directories
+.bower_components/
+jspm_packages/
+
+# Build outputs
+dist/
+build/
+out/
+
+# Production
+/coverage
+
+# TypeScript cache
+*.tsbuildinfo
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# Mac system files
+.DS_Store
+
+# IDE and editor directories/files
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# Temporary files
+tmp/
+temp/
+
+# Lock files
+package-lock.json
+yarn.lock
